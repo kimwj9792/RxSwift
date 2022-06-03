@@ -46,7 +46,7 @@ let package = Package(
   products: ([
     [
       .library(name: "RxSwift", targets: ["RxSwift"]),
-      .library(name: "RxCocoa", targets: ["RxCocoa"]),
+      .library(name: "RxCocoa", targets: ["RxCocoa", "RxCocoaRuntime"]),
       .library(name: "RxRelay", targets: ["RxRelay"]),
       .library(name: "RxBlocking", targets: ["RxBlocking"]),
       .library(name: "RxTest", targets: ["RxTest"]),
